@@ -10,20 +10,36 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body>
+<body class="body">
     <!-- header start  -->
     <header>
 
     </header>
     <!-- header end  -->
     <!-- main start  -->
-    <main>
-       <section>
-           <div>
-
+    <main class="container">
+       <section class="d-flex justify-content-between row">
+           <div id="left-side-div-id" class="left-side-div-cls d-flex flex-column justify-between col-12 col-md- 10 col-lg-6">
+             <input id="generate-output-field-id" type="text" class="px-2">
+             <button id="generate-btn-id" class="generate-btn-cls d-flex align-center justify-center">Generate Pin</button>
            </div>
-           <div>
-
+           <div class="bg-secondary col-12 col-md- 10 col-lg-6">
+            <input id="submit-output-field-id" type="text" class="px-5">
+            <ul id="ul" class="row row-cols-3">
+                <li><button class="btn" id="btn-1">1</button></li>
+                <li><button class="btn" id="btn-2">2</button></li>
+                <li><button class="btn" id="btn-3">3</button></li>
+                <li><button class="btn" id="btn-4">4</button></li>
+                <li><button class="btn" id="btn-5">5</button></li>
+                <li><button class="btn" id="btn-6">6</button></li>
+                <li><button class="btn" id="btn-7">7</button></li>
+                <li><button class="btn" id="btn-8">8</button></li>
+                <li><button class="btn" id="btn-9">9</button></li>
+                <li><button class="btn" id="btn-10">0</button></li>
+                <li><button class="btn" id="c">0</button></li>
+                <li><button class="btn" id="lt">&lt;</button></li>
+            </ul>
+            <button id="submit-btn">Submit Button</button>
            </div>
        </section>
     </main>

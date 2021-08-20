@@ -1,0 +1,24 @@
+.body {
+  background-color: cadetblue;
+}
+.left-side-div-cls {
+  background-color: darkblue;
+  width: 50%;
+  padding: 200px;
+}
+.generate-btn-cls {
+  padding: 100px;
+  border-radius: 50%;
+  margin-top: 180px;
+  background-color: deeppink;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+li > .btn {
+  padding: 9px;
+  background-color: cyan;
+  display: grid;
+  margin-bottom: 5px;
+  grid-gap: 5px;
+}
